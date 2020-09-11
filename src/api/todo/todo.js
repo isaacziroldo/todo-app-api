@@ -7,7 +7,7 @@ const todoSchema = new mongoose.Schema({
         type: String, required: true
     },
     done: {
-        type: String, required:true, default:false
+        type: Boolean, required:true, default:false
     },
     createAt: {
         type: Date, default: Date.now
